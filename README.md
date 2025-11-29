@@ -58,5 +58,5 @@ Start broker:
 mosquitto -v
 
 
-2. Install Python Dependencies
+### 2. Install Python Dependencies
 pip install paho-mqtt
