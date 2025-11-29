@@ -12,7 +12,7 @@ Each message includes the **student ID (12114470)** as required.
 
 ---
 
-# 🚀 Features
+#  Features
 - Install and configure Mosquitto broker on Windows
 - Use Paho MQTT client in Python
 - Three publishers (Temperature, Humidity, People Counter)
@@ -22,7 +22,7 @@ Each message includes the **student ID (12114470)** as required.
 
 ---
 
-# 📦 Project Structure
+#  Project Structure
 
 mqtt-lab/
 │
@@ -44,9 +44,9 @@ mqtt-lab/
 
 ---
 
-# 🔧 Installation
+#  Installation
 
-### 1️⃣ Install Mosquitto Broker
+### 1. Install Mosquitto Broker
 Download for Windows:  
 https://mosquitto.org/download/
 
@@ -55,10 +55,8 @@ Make sure to check:
 - ✔ Add to PATH  
 
 Start broker:
-```bash
 mosquitto -v
 
 
-2️⃣ Install Python Dependencies
-```bash
+2. Install Python Dependencies
 pip install paho-mqtt
